@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  position: relative;
+}
+.bg-img1,
+.bg-img2,
+.bg-img3 {
+  background-color: rgb(209, 104, 104);
+  background-size: cover;
+  /* background-image: ; */
+}
+
+.carousel-item.active {
+  display: block;
+  min-height: 300px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+footer li {
+  margin-right: 2rem;
+}
+footer li:first-child {
+  list-style: none;
+}
